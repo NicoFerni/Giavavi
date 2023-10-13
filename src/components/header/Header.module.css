@@ -1,0 +1,52 @@
+
+.header {
+  background-color: #222222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  }
+
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    left: 945px
+  } 
+
+.buttons{
+text-decoration-line: none;
+color: #ffffff;
+font-family: FiraSans;
+line-height: 74px;
+padding: 0px 18px;
+text-align: left;
+margin-right: 20px;
+}
+.buttons:hover{ 
+  border-style: solid none;
+  border-color:#1ba38c;
+  border-width:4px 6px;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  transition-property: button-hover;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.image{
+  position: relative;
+  width: 52px;
+  height: 52px;
+  left: 418px;
+}
+
+@font-face {
+  font-family: FiraSans;
+  src: url(/src/fonts/FiraSans-Regular.ttf);
+}
